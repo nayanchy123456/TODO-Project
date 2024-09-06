@@ -1,0 +1,46 @@
+ <%@page import="javax.swing.text.AbstractDocument.BranchElement"%>
+<%@page import="org.hibernate.Session"%>
+ <%@page import="org.hibernate.Query"%>
+ <%@page import="com.helper.FactoryProvider"%>
+ <%@page import="java.util.*"%>
+ <%@page import="com.entites.*"%>
+
+ 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>All notes: NoteTaker</title>
+ <%@include file = "all_js_css.jsp" %>
+</head>
+<body>
+
+<div class="container">
+	<%@include file = "navbar.jsp" %>
+	<br>
+	<h1 class="text-uppercase">All notes:</h1>
+	
+	<%
+	Session s = FactoryProvider.getFactory().openSession();
+	
+	Query q = s.createQuery("from Note");
+	List<Note> list=q.list();
+	for(Note note:list)
+	{
+		out.println(note.getId() + " : " + note.getTitle() + "<br>");
+		
+		
+	}
+	
+	s.close();
+	
+	
+	
+	
+	%>
+
+</div>
+</body>
+</html>

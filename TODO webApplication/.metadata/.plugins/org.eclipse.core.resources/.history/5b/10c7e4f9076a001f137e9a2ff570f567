@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>SaveNoteServlet</display-name>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <servlet-class>com.servlets.SaveNoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <url-pattern>/SaveNoteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

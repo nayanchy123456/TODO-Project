@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Projects\TODO webApplication\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1893746590.index
+869759972.index
+2389236961.index
+1350829691.index
+2690515020.index
+1701781908.index
+3006094525.index

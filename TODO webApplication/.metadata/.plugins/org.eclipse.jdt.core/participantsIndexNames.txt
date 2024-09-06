@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Projects\TODO webApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2389236961.index
+\NoteTaker\src\main\java
+C:\Projects\TODO webApplication\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1784984909.index
+\NoteTaker\src\main\java

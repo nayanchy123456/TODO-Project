@@ -1,0 +1,29 @@
+package com.servlets;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.tomcat.jakartaee.bcel.classfile.ClassFormatException;
+
+import jakarta.servlet.http.HttpServletRequestWrapper;
+
+@jakarta.servlet.annotation.WebServlet("/DeleteServlet")
+public class DeleteServlet extends jakarta.servlet.http.HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    
+    public DeleteServlet() {
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doGet(HttpServletRequestWrapper request, HttpServletRequestWrapper response) throws ClassFormatException, IOException {
+		
+	}
+
+	
+}
